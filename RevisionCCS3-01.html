@@ -8,6 +8,318 @@
 </head>
 
 <body>
+    <h1> SELECTORS </h1> <BR><BR><BR><BR>
+    <div>
+        SELECTORS 1 <BR>
+        Change the color of all &ltp&gt elements to "red".
+        <br>
+        &lt!DOCTYPE html&gt <br>
+        &lthtml&gt<br>
+        &lthead&gt<br>
+        &ltstyle&gt<br>
+        p {<br>
+          color: red;<br>
+        }<br>
+        &lt/style&gt<br>
+        &lt/head&gt<br>
+        &ltbody&gt<br>
+        
+        &lth1&gtThis is a Heading&lt/h1&gt<br>
+        &ltp&gtThis is a paragraph.&lt/p&gt<br>
+        &ltp&gtThis is another paragraph.&lt/p&gt<br>
+        
+        &lt/body&gt<br>
+        &lt/html&gt<br>
+        &ltbr><br>
+        Example:  <br><br>
+        <!DOCTYPE html>
+<html>
+<head>
+<style>
+p {
+  color: red;
+}
+</style>
+</head>
+<body>
+
+<h1>This is a Heading</h1>
+<p>This is a paragraph.</p>
+<p>This is another paragraph.</p>
+
+</body>
+</html>
+        <br><br>
+    </div>
+
+    <div>
+        SELECTORS 2 <BR>
+        Change the color of the element with id="para1", to "red".
+        <br>
+        &lt!DOCTYPE html&gt <br>
+        &lthtml&gt<br>
+        &lthead&gt<br>
+        &ltstyle&gt<br>
+        #para1 {<br>
+            color: red;<br>
+        }<br>
+        &lt/style&gt<br>
+        &lt/head&gt<br>
+        &ltbody&gt<br>
+        
+        &lth1&gtThis is a Heading&lt/h1&gt<br>
+        &ltp id="para1"&gtThis is a paragraph.&lt/p&gt<br>
+        &ltp&gtThis is another paragraph.&lt/p&gt<br>
+        
+        &lt/body&gt<br>
+        &lt/html&gt<br>
+        <br><br>
+        Example:  <br><br>
+        <!DOCTYPE html>
+<html>
+<head>
+<style>
+#para1 {
+  color: red;
+}
+</style>
+</head>
+<body>
+
+<h1>This is a Heading</h1>
+<p id="para1">This is a paragraph.</p>
+<p>This is another paragraph.</p>
+
+</body>
+</html>
+        <br><br>
+    </div>
+        SELECTOR 3 <BR>
+            Change the color of all elements with the class "colortext", to "red".
+    <div>
+        
+        <br>
+        &lt;!DOCTYPE html&gt <br>
+&lthtml&gt<br>
+&lthead&gt<br>
+&ltstyle&gt<br>
+.colortext {<br>
+  color: red;<br>
+}<br>
+&lt/style&gt<br>
+&lt/head&gt<br>
+&ltbody&gt<br>
+
+&lth1&gtThis is a Heading&lt/h1&gt<br>
+&ltp&gtThis is a paragraph.&lt/p&gt<br>
+&ltp class="colortext"&gtThis is another paragraph.&lt/p&gt<br>
+&ltp class="colortext"&gtThis is also a paragraph.&lt/p&gt<br>
+
+&lt/body&gt<br>
+&lt/html&gt<br>
+        <br><br>
+        Example:  <br><br>
+        <!DOCTYPE html>
+<html>
+<head>
+<style>
+.colortext {
+  color: red;
+}
+</style>
+</head>
+<body>
+
+<h1>This is a Heading</h1>
+<p>This is a paragraph.</p>
+<p class="colortext">This is another paragraph.</p>
+<p class="colortext">This is also a paragraph.</p>
+
+</body>
+</html>
+        <br><br>
+    </div>
+
+    <div>
+        SELECTORS 4 <BR>
+            Change the color of all &ltp&gt and &lth1&gt elements, to "red". Group the selectors to minimize code.
+        <br>
+        &lt!DOCTYPE html&gt<br>
+        &lthtml&gt<br>
+        &lthead&gt<br>
+        &ltstyle&gt<br>
+        h1, p {<br>
+          color: red;<br>
+        }<br>
+        &lt/style&gt<br>
+        &lt/head&gt<br>
+        &ltbody&gt<br>
+        
+        &lth1&gtThis is a heading&lt/h1&gt<br>
+        &lth2&gtThis is a smaller heading&lt/h2&gt<br>
+        &ltp&gtThis is a paragraph.&lt/p&gt<br>
+        &ltp&gtThis is another paragraph.&lt/p&gt<br>
+        
+        &lt/body&gt<br>
+        &lt/html&gt<br>
+        <br><br>
+        Example:  <br><br>
+        <!DOCTYPE html>
+        <html>
+        <head>
+        <style>
+        h1, p {
+          color: red;
+        }
+        </style>
+        </head>
+        <body>
+        
+        <h1>This is a heading</h1>
+        <h2>This is a smaller heading</h2>
+        <p>This is a paragraph.</p>
+        <p>This is another paragraph.</p>
+        
+        </body>
+        </html>
+        
+        <br><br>
+    </div>
+    <h1> HOW TO </h1>  <BR><BR><BR><BR>
+    <div>
+        HOW TO 1 <BR>
+            Add an external style sheet with the URL: "mystyle.css".
+        <br>
+        &Lt!DOCTYPE html&gt <BR>
+        &Lthtml&gt<BR>
+        &Lthead&gt<BR>
+        &Ltlink rel="stylesheet" href="mystyle.css"&gt<BR>
+        &Lt/head&gt<BR>
+        &Ltbody&gt<BR>
+        
+        &Lth1&gtThis is a Heading&Lt/h1&gt<BR>
+        &Ltp&gtThis is a paragraph.&Lt/p&gt<BR>
+        &Ltp&gtThis is another paragraph.&Lt/p&gt<BR>
+        
+        &Lt/body&gt<BR>
+        &Lt/html&gt<BR>
+        <br><br>
+        Example:  <br><br>
+        <!DOCTYPE html>
+        <html>
+        <head>
+        <link rel="stylesheet" href="mystyle.css">
+        </head>
+        <body>
+        
+        <h1>This is a Heading</h1>
+        <p>This is a paragraph.</p>
+        <p>This is another paragraph.</p>
+        
+        </body>
+        </html>
+        <br><br>
+    </div>
+
+    <div>
+            HOW TO 2 <BR>
+            Set "background-color: linen" for the page, using an internal style sheet.
+        <br>
+        &lt!DOCTYPE html&gt <br>
+        &lthtml&gt<br><br>
+        &lthead&gt<br>
+        &ltstyle&gt<br>
+        body {<br>
+          background-color: linen;<br>
+        }<br>
+        &lt/style&gt<br>
+        &lt/head&gt<br>
+        &ltbody&gt<br>
+        
+        &lth1&gtThis is a Heading&lt/h1&gt<br>
+        &ltp&gtThis is a paragraph.&lt/p&gt<br>
+        &ltp&gtThis is another paragraph.&lt/p&gt<br>
+        
+        &lt/body&gt<br>
+        &lt/html&gt<br>
+        <br><br>
+        Example:  <br><br>
+        <!DOCTYPE html>
+        <html>
+        <head>
+        <style>
+        body {
+          background-color: linen;
+        }
+        </style>
+        </head>
+        <body>
+        
+        <h1>This is a Heading</h1>
+        <p>This is a paragraph.</p>
+        <p>This is another paragraph.</p>
+        
+        </body>
+        </html>
+        <br><br>
+    </div>
+
+    <div>
+        HOW TO 3 <BR>
+        Set "background-color: linen" for the page, using an inline style.
+        <br>
+        &lt!DOCTYPE html&gt <br>
+        &lthtml&gt<br>
+        &lthead&gt<br>
+        &lt/head&gt<br>
+        &ltbody style="background-color: linen"&gt<br>
+        
+        &lth1&gtThis is a Heading&lt/h1&gt<br>
+        &ltp&gtThis is a paragraph.&lt/p&gt<br>
+        &ltp&gtThis is another paragraph.&lt/p&gt<br>
+        
+        &lt/body&gt<br>
+        &lt/html&gt<br>
+        
+        <br><br>
+        Example:  <br><br>
+        <!DOCTYPE html>
+        <html>
+        <head>
+        </head>
+        <body style="background-color: linen">
+        
+        <h1>This is a Heading</h1>
+        <p>This is a paragraph.</p>
+        <p>This is another paragraph.</p>
+        
+        </body>
+        </html>
+        
+        
+        <br><br>
+    </div>
+
+    <div>
+        
+        <br>
+
+        <br><br>
+        Example:  <br><br>
+        
+        <br><br>
+    </div>
+
+    <div>
+        
+        <br>
+
+        <br><br>
+        Example:  <br><br>
+        
+        <br><br>
+    </div>
+
     Iniciar
 </body>
 
